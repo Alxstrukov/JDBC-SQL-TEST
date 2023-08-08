@@ -7,7 +7,9 @@ import java.sql.SQLException;
 
 public class Main {
     /*----------------ПЕРЕД ЗАПУСКОМ ПРОГРАММЫ НЕОБХОДИМО ЗАПУСТИТЬ Open Service Panel локальном компе,
-                                а затем (если не срабоает) в Idea подключиться к БД*/
+                                а затем (если не срабоает) в Idea подключиться к БД
+                                а также подключить в ProjectStructure
+                                (com.google.code.maven-play-plugin.postgresql:postgresql:9.0-801.jdbc4-patched-play-1.2.3)*/
     public static void main(String[] args) {
         System.out.println("Тестирование подключения к PostgreSQL JDBC");
 
